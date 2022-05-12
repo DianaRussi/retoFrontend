@@ -16,6 +16,12 @@ body {
     border-radius: 15px;
 }
 
+label{
+    display: flex;
+    justify-content: start;
+    font-size: 16px;
+    font-weight: bold;
+}
 
 .header h1 {
     color: #fff;
@@ -30,7 +36,8 @@ body {
 }
 
 input[type="text"],
-input[type="password"] {
+input[type="password"],
+input[type="email"] {
     border: none;
     border-bottom: 1px solid #021e26;
     width: 100%;
@@ -58,4 +65,8 @@ input[type="submit"]:hover {
 .cuenta{
     text-decoration: none;
     color: #039BE5;
+}
+
+.campo{
+    padding: 2px;
 }
