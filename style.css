@@ -38,13 +38,21 @@ label{
 input[type="text"],
 input[type="password"],
 input[type="email"] {
-    border: none;
-    border-bottom: 1px solid #021e26;
+
     width: 100%;
+    border: none;
+    border-bottom: 1px solid white;
+    background: none;
+    margin-bottom: 15px;
     font-size: 14px;
-    margin-bottom: 40px;
-    padding-left:10px;
+    color: white;
 }
+
+input:focus {
+    border: none;
+    border-bottom:  1px solid #fff;
+    outline: none;
+  }
 
 
 input[type="submit"] {
@@ -68,5 +76,5 @@ input[type="submit"]:hover {
 }
 
 .campo{
-    padding: 2px;
+    padding: 5px;
 }
